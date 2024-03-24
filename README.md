@@ -7,7 +7,7 @@ A repo with sql files pertaining to the Data Wizardry clinical cohort.
   </ul>
 
 <h3>vw_cte_subquery_join</h3>
-  <h4>A query for End Stage Renal Disease (ESRD) patients, that provides informationabout each patients Blood Urea Nitogen (Bun) in the year 20220.</h4>
+  <h4>A query for End Stage Renal Disease (ESRD) patients, that provides informationabout each patients Blood Urea Nitogen (Bun) in the year 2022.</h4>
   <h5>Requirements: Inclusion Criteria:</h5>
   <ul>
     <li>Patient must have been active: as defined by at least 1 encounter bewteeen 2020-2022</li>
