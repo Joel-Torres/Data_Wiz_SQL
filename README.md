@@ -26,3 +26,18 @@ A repo with sql files pertaining to the Data Wizardry clinical cohort.
     <li>Lowest BUN level for each patient for 2022</li>
     <li>Average BUN level for each patient for 2022</li>
   </ul>
+
+  <h2>esrd_bun_pat_deagragate_partition</h2>
+  <h4>An extension of the vw_cte_subquery_join query with a partition</h4>
+  <p>We aggregated data with a groub by clause into min, max, and average values. This extension or new ask was to keep the granularity of the data before aggregating. We want to see all the BUN and encounter values for each patient but we also want to show the min, max, and average all on the same table. To accomplish this task we need to take advantage of the partition function in Sequel.</p>
+
+<h3>Project Clarifications</h3>
+<p>Provider wants all lab values displayed (increase granularity), in addition to the aggregate values</p>
+<p>They also want additional columns</p>
+<ul>
+  <li>The total count of BUN for each patient in 2022</li>
+  <li>The peer average of ESRD BUN values for the whole year of 2022</li>
+  <li>Each row shows the Nth BUN lab for the patient in 2022</li>
+</ul>
+
+
