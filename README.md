@@ -1,12 +1,12 @@
 # Data_Wiz_SQL
 A repo with sql files pertaining to the Data Wizardry clinical cohort. 
 
-<h3>flu_tx_patients</h3>
+<h2>flu_tx_patients</h2>
   <ul>
     <li>This sequel file contains a CTE with subquery joining an immunizations table and conditions table.</li>
   </ul>
 
-<h3>vw_cte_subquery_join</h3>
+<h2>vw_cte_subquery_join</h2>
   <h4>A query for End Stage Renal Disease (ESRD) patients, that provides informationabout each patients Blood Urea Nitogen (Bun) in the year 2022.</h4>
   <h5>Inclusion Criteria:</h5>
   <ul>
@@ -33,7 +33,7 @@ A repo with sql files pertaining to the Data Wizardry clinical cohort.
 
 <h3>Project Clarifications</h3>
 <p>Provider wants all lab values displayed (increase granularity), in addition to the aggregate values</p>
-<p>They also want additional columns</p>
+<h5>They also want additional columns</h5>
 <ul>
   <li>The total count of BUN for each patient in 2022</li>
   <li>The peer average of ESRD BUN values for the whole year of 2022</li>
