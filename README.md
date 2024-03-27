@@ -29,7 +29,7 @@ A repo with sql files pertaining to the Data Wizardry clinical cohort.
 
   <h2>esrd_bun_pat_deagragate_partition</h2>
   <h4>An extension of the vw_cte_subquery_join query with a partition</h4>
-  <a href="[url](https://joel-torres.quarto.pub/filtering-patient-data-with-sql/)">Link for Quarto Pub</a>
+  <a href="https://joel-torres.quarto.pub/filtering-patient-data-with-sql/">Link for Quarto Pub</a>
   <p>We aggregated data with a groub by clause into min, max, and average values. This extension or new ask was to keep the granularity of the data before aggregating. We want to see all the BUN and encounter values for each patient but we also want to show the min, max, and average all on the same table. To accomplish this task we need to take advantage of the partition function in Sequel.</p>
 
 <h3>Project Clarifications</h3>
